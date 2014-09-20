@@ -4,8 +4,7 @@ common:
   s3_secret_key: _env:S3_SECRET_KEY
   s3_bucket: _env:S3_BUCKET
   boto_bucket: _env:S3_BUCKET
-  storage_path: /
-  storage_redirect: true
+  storage_path: /open-registry
   s3_encrypt: false
   s3_secure: false
 
